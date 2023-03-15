@@ -1,0 +1,27 @@
+{
+  "name": "i18n-googledocs",
+  "version": "1.0.0",
+  "description": "A Node library that reads and maintains i18n definitions from Google Spreadsheet",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeSpock/i18n-googledocs.git"
+  },
+  "author": "Mihaly Kr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikeSpock/i18n-googledocs/issues"
+  },
+  "homepage": "https://github.com/MikeSpock/i18n-googledocs#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "i18n-js": "^4.2.3",
+    "mocha": "^10.2.0"
+  }
+}
