@@ -21,7 +21,6 @@
     "chai": "^4.3.7",
     "dotenv": "^16.0.3",
     "google-spreadsheet": "^3.3.0",
-    "i18n-js": "^4.2.3",
     "mocha": "^10.2.0"
   }
 }

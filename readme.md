@@ -4,19 +4,31 @@ This is a library that you can use in your JS projects to retrieve translation d
 
 The premise is that you get a nice editor with Google Spreadsheets and can sync definitions when you want. 
 
+Server and client libraries are provided, as client should not have the access keys to the google docs in case you want to transalte something on the frontend. How the server hands over the dictionary is your choice. See examples below.
+
 ## Usage
 
 Install
 
 `npm i i18n-googledocs`
 
-Code
+Code (server-side)
 `````
 import idg from 'i18n-googledocs';
 
-const i18n = await igd.init('[GOOGLE-DOC-ID]','API service email', 'API secret');
+const i18n = await igd.init('[GOOGLE-DOC-ID]','[API service email]', '[API secret]');
 console.log(i18n.t('Name'));  //outputs: 'Nombre'
 `````
+
+Code (client-side)
+`````
+import idg from 'i18n-googledocs/client.js';
+
+
+
+`````
+
+
 
 ## How to get authenticate
 
